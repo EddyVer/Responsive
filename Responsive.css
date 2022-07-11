@@ -1,3 +1,48 @@
 body{
-    background-color: red;
+    background-color:lightblue;
 }
+
+.content #small{display: none;}
+.content #medium{display: none;}
+.content #large{display: block;}
+#smallCaract{
+    font-size: small;
+}
+
+#mediumCaract{
+    font-size: medium;
+}
+
+#lagerCarct{
+    font-size: large;
+}
+
+@media only screen and (max-width: 480px) {
+    body{
+        background-color: lightcoral;
+    }
+    .content #small{display: block;}
+    .content #medium{display: none;}
+    .content #large{display: none;}
+}
+
+@media only screen and (min-width:480px) and (max-width:1024px) {
+    body{
+        background-color: lightgreen;
+    }
+    .content #small{display: none;}
+    .content #medium{display: block;}
+    .content #large{display: none;}
+}
+
+
+
+
+
+
+    
+  
+    
+  
+    
+
